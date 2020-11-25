@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <title>Naomi's 123 page!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="main  container">
+
+  <article class="article  article--page  content  typeset">
+    
+
+    <div id="surveyWrapper" class="hero">  
+    <p class="back-link"><a href="/list"><i class="tiny material-icons">arrow_back</i>Back</a></p>
+    <div class="row">
+        <div class="small-12 columns">
+            <p id="surveyElement"></p>
+            <div id="surveyResult" class="text-center"></div>
+        </div>
+    </div>
+    <div class="row results hidden" id="results">
+        <div class="small-12 medium-centered columns text-center">
+            <div class="chart">
+            <h5 class="chart-heading" id="compare_sample"></h5>
+            <div id="sub-chart" class="sub-chart">
+                <div class="rectangle">
+                    
+                    <div id="green" class="sub-rectangle tooltip-custom" rel="tooltip"></div> 
+                    <div id="yellow" class="sub-rectangle tooltip-custom" rel="tooltip"></div>
+                    <div id="orange" class="sub-rectangle tooltip-custom" rel="tooltip"></div>
+                    <div id="red" class="sub-rectangle tooltip-custom" rel="tooltip"></div>
+                    <div id="you-pos" class="line">
+                        <p class="label-top"> You </p>
+                    </div>
+                </div>
+                <div class="assessment-graph-labels">
+                    <p class="left"> Lower </p>
+                    <p class="centered"> Average </p>
+                    <p class="right"> Higher </p>
+                </div>
+            </div>
+            <div id="clinical-info">
+                <p id="citation"></p>
+                
+                <p id="score"></p>
+            </div>
+        </br>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script src="naomi.js"></script>
